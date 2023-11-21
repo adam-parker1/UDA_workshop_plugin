@@ -49,7 +49,7 @@ class UDAWorkshopPlugin {
 
 int UDAWorkshopPlugin::hands_on_status(IDAM_PLUGIN_INTERFACE* interface) {
 
-    return setReturnDataString(interface->data_block, "IT'S GOING GREAT!", nullptr);
+    return setReturnDataString(interface->data_block, "IT'S GOING GREAT!\n", nullptr);
 
 }
 
